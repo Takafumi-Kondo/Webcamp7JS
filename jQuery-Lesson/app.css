@@ -1,0 +1,8 @@
+.box1{
+/*jQはHTMLの後に読み込まれるのでdisplay: none;で非表示にすれば.slideDown()適応できる
+.slideUp()はhtml表示を隠すのでdisplay: none;は不要*/
+	/*display: none;*/
+	background-color: #FF0000;
+	width: 200px;
+	height: 200px;
+}
